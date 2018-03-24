@@ -1,10 +1,10 @@
 # Deploying-django-project-on-AWS
 
-1. EC2 - Launch Instance - Ubuntu Server 16.04 LTS - t2.micro - Review and Launch - Launch
-   Add Rule(SSH / TCP / 22 / My Ip)
-   Add Rule(Custom TCP Rule / TCP / 8000 / Anywhere)
+1. EC2 - Launch Instance - Ubuntu Server 16.04 LTS - t2.micro - Review and Launch - Launch<br/>
+   Add Rule(SSH / TCP / 22 / My Ip)<br/>
+   Add Rule(Custom TCP Rule / TCP / 8000 / Anywhere)<br/>
 
-2. Keypair:
+2. Keypair:<br/>
    Create new key pair - Download
 
 Setup:
