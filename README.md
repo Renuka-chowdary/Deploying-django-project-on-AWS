@@ -76,7 +76,7 @@
      the management script:
 
             (myprojectenv) $:  ~/myproject/python manage.py makemigrations
-             (myprojectenv) $:  ~/myproject/python manage.py migrate
+            (myprojectenv) $:  ~/myproject/python manage.py migrate
 
 9. Create an administrative user for the project by typing:
 
@@ -88,8 +88,8 @@
 10. Collecting  all of the static content into the directory location 
 
              (myprojectenv) $ ~/myproject/python manage.py collectstatic
-                                       sudo ufw allow 8000
-                                        ~/myproject/python manage.py runserver 0.0.0.0:8000
+                              sudo ufw allow 8000
+                              ~/myproject/python manage.py runserver 0.0.0.0:8000
 
 
 11. Now open browser and give
@@ -108,6 +108,11 @@ So you get the  Django output like this
 12. Add /admin to that url
 
               http://ec2-server_IP:8000/admin
+              
+Then you get login page,provide the details that you creted during superuser.
+Now you get the django administration page.
+
+Successfully deployed django project on AWS.
               
               
 
