@@ -102,11 +102,12 @@
  
 So you get the  Django output like this
 
-
-
+![django](https://user-images.githubusercontent.com/33515288/37865637-6dd52d8a-2fa5-11e8-8736-50f3b6623aa1.png)
 
 
 12. Add /admin to that url
 
               http://ec2-server_IP:8000/admin
+              
+              
 
