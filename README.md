@@ -1,5 +1,14 @@
 # Deploying-django-project-on-AWS
 
+1. EC2 - Launch Instance - Ubuntu Server 16.04 LTS - t2.micro - Review and Launch - Launch
+   Add Rule(SSH / TCP / 22 / My Ip)
+   Add Rule(Custom TCP Rule / TCP / 8000 / Anywhere)
+
+2. Keypair:
+   Create new key pair - Download
+
+Setup:
+
 1. SSH into ec2 server using pem file
 
        sudo ssh -i /home/hashedin/Downloads/xxxxx.pem ubuntu@ec2-x.x.x.x.compute-1.amazonaws.com
